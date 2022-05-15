@@ -1,0 +1,207 @@
+body {
+  background-color: #aaaa55;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  width: 1000px;
+  padding: 20px;
+  background-color: #ffffff;
+  min-height: 300px;
+  border-radius: 10px;
+  margin: 40px auto;
+}
+header {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff1a1a;
+  text-shadow: 2px 2px gray;
+}
+nav {
+  background-color: #eeeeee;
+  border: solid thin #eeeeee;
+  color: #f60;
+  height: 60px;
+  margin: 10px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+nav ul li {
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  float: left;
+  display: inline-block;
+}
+nav ul li a {
+  padding: 20px;
+  height: 20px;
+  color: #f60;
+  font-weight: bold;
+  float: left;
+  text-align: justify;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #f60;
+  color: #fff;
+}
+#slider {
+  min-height: 200px;
+  /* background-color: #ff80bf; */
+  margin-bottom: 10px;
+}
+#slider img {
+  width: 100%;
+  height: auto;
+}
+.kotak {
+  min-height: 300px;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+.berita {
+  width: 470px;
+  min-height: 300px;
+  background-color: #99ff99;
+  float: left;
+  padding: 10px;
+  border-radius: 5px;
+}
+.berita img {
+  width: 100%;
+  height: auto;
+}
+.berita h2 {
+  border-bottom: #4d4d33;
+  color: #f60;
+}
+.berita p {
+  text-align: justify;
+}
+.alamat {
+  width: 470px;
+  min-height: 300px;
+  background-color: #99ff99;
+  float: right;
+  padding: 10px;
+  border-radius: 5px;
+}
+.alamat iframe {
+  width: 100%;
+  max-height: 310px;
+}
+.alamat h2 {
+  border-bottom: #4d4d33;
+  color: #f60;
+}
+.alamat p {
+  text-align: justify;
+}
+.logo {
+  width: 400px;
+  min-height: 400px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: solid 2px #eee;
+  border-radius: 5px;
+  float: left;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+.profil {
+  width: 530px;
+  min-height: 400px;
+  border: solid 2px #eee;
+  border-radius: 5px;
+  padding: 10px;
+  float: right;
+}
+.profil h1 {
+  color: #f60;
+  border-bottom: solid thin #4d4d33;
+  margin-top: 0;
+  font-size: 28px;
+}
+.profil p {
+  text-align: justify;
+}
+.profil img {
+  width: 100%;
+  height: auto;
+}
+.maps {
+  width: 400px;
+  min-height: 400px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: solid 2px #eee;
+  border-radius: 5px;
+  float: left;
+}
+.maps iframe {
+  width: 100%;
+  height: auto;
+}
+.produk {
+  width: 250px;
+  margin-bottom: 10px;
+  float: left;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.produk .gambar {
+  width: 240px;
+  height: 240px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.produk .gambar img {
+  width: auto;
+  max-width: 228px;
+  height: auto;
+  max-height: 228px;
+  padding: 5px;
+  border: solid 1px #eee;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+.produk .nama {
+  width: 240px;
+  height: 50px;
+}
+.produk .nama h2 {
+  margin: 0;
+  font-size: 18px;
+}
+.produk .nama p {
+  margin: 0;
+  color: orange;
+}
+.produk .nama a {
+  text-decoration: none;
+  color: #ff8000;
+}
+.produk .nama a:hover {
+  color: black;
+}
+.clearfix {
+  clear: both;
+  display: block;
+  margin-bottom: 10px;
+}
+footer {
+  text-align: center;
+  color: #4d4d33;
+  padding: 10px 20px;
+  border-top: solid thin #eee;
+}
